@@ -1,0 +1,83 @@
+html,body{
+	background: transparent;}
+
+#hako a{ text-decoration: none; 
+	color:#fff;}
+	
+@media screen and (min-width: 1221px) {
+
+	#hako{
+		display: -ms-flexbox; /* IE10 */
+		display: -webkit-box; /* Android4.3以下、Safari3.1?6.0 */
+		display: -webkit-flex; /* Safari6.1以降 */
+		display: flex;
+		-ms-flex-flow: row-reverse wrap; /*IE10*/
+		-webkit-flow: row-reverse wrap; /* Safari6.1以降 */
+		flex-flow: row-reverse wrap;
+		width: 100% !important;
+		max-width: 1200px !important; }
+		
+	#hako img {
+		width:100% !important;
+		max-width: 600px !important;
+		margin:1rem 0 !important;}
+	}
+		
+@media screen and (max-width: 1220px) {
+
+	.fancybox-slide--html {
+		 padding: 0 !important;}
+    
+	#hako{
+		max-width:705px !important;  }
+		
+	.fancybox-close-small{
+		padding: 0 !important;
+		height: 3rem !important;
+		width: 3rem !important;
+		background-color: rgba(255,255,255,0.8) !important;}
+	}
+
+#hako{
+	margin:0 auto !important; 
+	padding:0 !important;}
+	
+@media screen and (min-width: 1024px) {
+		
+	#hako img {
+		width:100% !important;
+		margin:1.5rem 0 !important;}
+		
+	#hako div.kara {
+		width:100% !important;
+		max-width: 600px !important;
+		background-color: #fff;
+		margin:1.5rem 0 !important;}
+
+	button.fancybox-close-small{
+		top: 0 !important;
+		right: 17px !important;}
+	}
+
+@media screen and (max-width: 1023px) {
+
+	#hako img {
+		max-width:100% !important;
+		margin:0 auto 1rem auto !important;}
+		
+	#hako img:last-child{
+		margin-bottom: 0 !important;}
+		
+	.fancybox-navigation button
+	{display: none;}
+	.fancybox-is-open .fancybox-stage{
+		overflow: scroll !important;
+		-webkit-overflow-scrolling: touch;}
+
+	button.fancybox-close-small{
+		top: 0 !important;
+		right: 0 !important;}
+	}
+	
+#hako img {
+	height:auto !important;}

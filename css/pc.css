@@ -1,0 +1,272 @@
+@charset "UTF-8";
+
+body{
+	font-size: 1.6rem;
+	padding: 5rem;
+}
+
+#wrap{
+	margin: 19rem auto 6rem;
+	padding-top: 8rem;
+	max-width: 110rem;
+}
+
+
+section{
+	margin-bottom: 6rem;
+	padding: 4rem;
+}
+
+/* ↓ヘッダー・フッター */
+
+header,footer{
+	margin: 2rem;
+	width: calc( 100% - 4rem );
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='9' viewBox='0 0 4 4'%3E%3Cpath fill='%23000000' fill-opacity='1' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");}
+
+
+header{
+	height: 45rem;
+	padding: 5rem;
+}
+
+header::before{
+	background-position: 50% 60%;
+}
+
+footer{
+	height: 26rem;
+}
+
+
+footer::before{
+	background-position: 50% 60%;
+}
+
+footer p{
+	bottom: 3.5rem;
+	font-size: 2rem;
+}
+
+
+nav{
+	margin: 18rem auto 0;
+	padding-left: 16rem;
+	max-width: 110rem;
+}
+
+nav #icon{
+	left: 2rem;
+	bottom: -8rem;
+	height: 14rem;
+	width: 14rem;
+	border-width: 0.6rem;
+}
+
+nav h1{
+	font-size: 6rem;
+}
+
+nav a{
+	font-size: 3rem;
+	margin: 0 1rem;
+}
+
+nav.scroll{
+	padding-left: 10rem;
+	max-width: calc( 100% - 4rem );
+	height: 5.5rem;
+	line-height: 5.5rem;
+}
+
+nav.scroll #icon{
+	top: 0.5rem;
+	left: 1.5rem;
+	width: 7rem;
+	height: 7rem;
+	border-width: 0.4rem;
+}
+
+nav.scroll h1{
+	font-size: 3rem;
+}
+	
+nav.scroll a{
+	font-size: 2rem;
+}
+
+
+
+/* ↓プロフィール・新着記事 */
+
+#me h3{
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	padding-left: 12rem;
+}
+
+#me h3 a{
+	margin-left: 1rem;
+	width: 2.8rem;
+	height: 2.8rem;
+	font-size: 1.6rem;
+	line-height: 2.2rem;
+	border-width: 0.2rem;
+}
+
+#new{
+	margin-top: 3rem;
+	height: 4rem;
+	line-height: 4rem;
+	letter-spacing: 0.1rem;
+}
+
+#new i{
+	margin: 0 1rem;
+}
+
+
+
+/* ↓イラスト */
+
+.pic{
+	width:calc(20% - 1rem);
+	margin:0 1.25rem 0 0;
+}
+
+.jscroll-added .pic{
+	margin-top: 1rem;
+}
+
+.pic::before {
+	padding-top: 200%;
+}
+
+.jscroll-added .pic::before{
+	padding-top: 100%;
+}
+
+a.next{
+	bottom: -6rem;
+	width: 5rem;
+	height: 5rem;
+	line-height: 5rem;
+	font-size: 3rem;
+}
+	
+a.next:hover{
+	transition: all 0.3s ease;
+	text-align:center;
+	background-color:#a0a5a7;
+	color:#fff;
+}
+
+/* ↓fancyboxのiframeのサイズ制御用 */
+
+.fancybox-slide--iframe .fancybox-content{
+	margin: 0 !important;
+	height: 100% !important;
+	max-height: 100% !important;
+	max-width: 125rem !important;}
+
+
+
+
+/* ↓オフライン */
+
+#off h3{
+	font-size: 2.5rem;
+}
+
+#off ul{
+	margin: 2rem auto 3rem;
+	padding: 1rem 1.5rem;
+	border-width: 2px;
+}
+
+#off ul li{
+	line-height: 2.5rem;
+}
+
+#off ul li span:nth-child(2){
+	padding: 0 2rem;
+}
+
+.book{
+	padding: 2rem;
+	width: 49%;
+	margin-bottom: 2rem;
+}
+
+.hyoushi{
+	margin-right: 2rem;
+	width: 40%;
+}
+
+.info{
+	padding-bottom: 8.8rem;
+}
+
+.book h4{
+	font-size: 2.5rem;
+}
+
+.price{
+	margin: 1rem 0;
+	font-size: 1.4rem;
+}
+
+.summary{
+	line-height: 2rem;}
+
+.book .btn a{
+	letter-spacing: 0.2rem;
+	margin-top: 0.6rem;
+	font-size: 2rem;
+	line-height: 3.5rem;
+}
+
+.new::before{
+	top: -1.5rem;
+	left: -1.5rem;
+	width: 5.5rem;
+	height: 5.5rem;
+	line-height: 5.5rem;
+}
+
+
+
+/* ↓アバウト */
+
+#about h2{
+	font-size: 3rem;
+}
+
+#about h2 i{
+	margin: 0 1rem;
+}
+	
+#about p{
+	margin: 2rem 0 2.5rem;
+}
+
+textarea{
+	margin-bottom: 1rem;
+	padding: 0.5rem 1rem;
+	height: 8rem;
+    line-height: 1.5;
+}
+
+input{
+	height: 4rem;
+	line-height: 4rem;
+	width: 15rem;
+	font-size: 2.2rem;
+}
+
+form input:last-child{
+	margin-left: 1rem;}
+
+.min{
+	display: none;
+}
