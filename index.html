@@ -1,158 +1,207 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="ROBOTS" content="NOINDEX,NOFOLLOW" />
+    <meta
+      name="viewport"
+      content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
 
-<meta charset="UTF-8">
-<meta NAME="ROBOTS" CONTENT="NOINDEX,NOFOLLOW">
-<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>TITLE</title>
 
-<title>TITLE</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css?ver1.0.0" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 769px)"
+      href="css/pc.css?ver1.0.0"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="css/mobile.css?ver1.0.0"
+    />
 
-<link rel="stylesheet" href="css/reset.css">
-<link rel="stylesheet" href="css/style.css?ver1.0.0">
-<link rel="stylesheet" media="screen and (min-width: 769px)" href="css/pc.css?ver1.0.0">
-<link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css?ver1.0.0">
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css"
+    />
+  </head>
 
-<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css">
+  <body>
+    <header>
+      <nav>
+        <img src="img/icon.png" id="icon" />
+        <a href="#"><h1>SITETITLE</h1></a>
+        <a href="#illust">ILLUST</a>
+        <a href="#off">OFFLINE</a>
+        <a href="test.html">LOGINTEST</a>
+      </nav>
+    </header>
 
-</head>
+    <div id="wrap">
+      <section>
+        <div id="me">
+          <h3>
+            なまえなまえ<a href="" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </h3>
+          <p>
+            これは、ダミーです。これは、ダミーです。これは、ダミーです。これは、ダミーです
+          </p>
+          <p id="new">
+            <span>2020.07.30</span
+            ><i class="fas fa-bullhorn"></i>更新履歴こうしんりれき更新履歴
+          </p>
+        </div>
+      </section>
 
-<body>
+      <section id="illust">
+        <div class="clear long">
+          <div class="pic">
+            <a href="img/illust/01.jpg" data-fancybox="illust"
+              ><img src="img/illust/01.jpg" alt="説明"
+            /></a>
+          </div>
+          <div class="pic">
+            <a href="img/illust/02.jpg" data-fancybox="illust"
+              ><img src="img/illust/02.jpg" alt="説明"
+            /></a>
+          </div>
+          <div class="pic">
+            <a href="img/illust/03.jpg" data-fancybox="illust"
+              ><img src="img/illust/03.jpg" alt="説明"
+            /></a>
+          </div>
+          <div class="pic">
+            <a href="img/illust/04.jpg" data-fancybox="illust"
+              ><img src="img/illust/04.jpg" alt="説明"
+            /></a>
+          </div>
+          <div class="pic">
+            <a
+              data-fancybox="illust"
+              data-type="iframe"
+              data-src="comic01.html"
+              href="javascript:;"
+              ><img src="img/illust/05.jpg" alt="説明"
+            /></a>
+          </div>
+          <a href="img02.html" class="next"
+            ><i class="fas fa-angle-down"></i
+          ></a>
+        </div>
+      </section>
 
-<header>
-	<nav>
-		<img src="img/icon.png" id="icon">
-		<a href="#"><h1>SITETITLE</h1></a>
-		<a href="#illust">ILLUST</a>
-		<a href="#off">OFFLINE</a>
-		<a href="#about">INFO</a>
-	</nav>
-</header>
+      <section id="off">
+        <h3>circle：サークル名</h3>
+        <div>
+          <ul>
+            <li>
+              <span class="date">2020/**/**</span>
+              <span class="number">あ-12</span>
+              <span>イベント名とか</span>
+            </li>
+            <li>
+              <span class="date">2020/**/**</span>
+              <span class="number">イ-34</span>
+              <span>参加予定などイベント情報を載せるとこ</span>
+            </li>
+            <li>
+              <span class="date">2020/**/**</span>
+              <span class="number">Ｕ-56</span>
+              <span>これはダミーです</span>
+            </li>
+          </ul>
+        </div>
 
-<div id="wrap">
+        <div id="issued">
+          <div class="book new">
+            <div class="hyoushi">
+              <img src="img/off/hyoushi.gif" alt="表紙" />
+            </div>
+            <div class="info">
+              <h4>タイトル</h4>
+              <p class="price">A5｜P36｜&yen;400</p>
+              <p class="summary">
+                これは、ダミーです。これは、ダミーです。これは、ダミーです。これは、ダミーですこれは、ダミーです。これは、ダミーです。
+              </p>
+              <div class="btn">
+                <a>SAMPLE</a>
+                <a>ORDER</a>
+              </div>
+            </div>
+          </div>
 
-<section>
-	<div id="me">
-		<h3>なまえなまえ<a href="" target="_blank"><i class="fab fa-twitter"></i></a></h3>
-		<p>これは、ダミーです。これは、ダミーです。これは、ダミーです。これは、ダミーです</p>
-		<p id="new"><span>2020.07.30</span><i class="fas fa-bullhorn"></i>更新履歴こうしんりれき更新履歴</p>
-	</div>
+          <div class="book">
+            <div class="hyoushi">
+              <img src="img/off/hyoushi.gif" alt="表紙" />
+            </div>
+            <div class="info">
+              <h4>タイトル</h4>
+              <p class="price">A5｜P36｜&yen;400</p>
+              <p class="summary">
+                これは、ダミーです。これは、ダミーです。これは、ダミーです。これは、ダミーです
+              </p>
+              <div class="btn">
+                <a>SAMPLE</a>
+                <a>ORDER</a>
+              </div>
+            </div>
+          </div>
 
-</section>
+          <div class="book">
+            <div class="hyoushi">
+              <img src="img/off/hyoushi.gif" alt="表紙" />
+            </div>
+            <div class="info">
+              <h4>タイトル</h4>
+              <p class="price">A5｜P36|&yen;400</p>
+              <p class="summary">
+                これは、ダミーです。これは、ダミーです。これは、ダミーです。これは、ダミーです
+              </p>
+              <div class="btn">
+                <a>SAMPLE</a>
+                <a>ORDER</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-<section id="illust">
+      <section id="about">
+        <h2>SITE TITLE<i class="fas fa-globe"></i>https://siteurl.com</h2>
+        <p>
+          これは、ダミーです。これは、ダミーです。これは、ダミーです。これは、ダミーです
+        </p>
+        <form
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          action="index.html"
+        >
+          <textarea name="message" onclick="this.select()" id="msg"></textarea>
+          <input value="SEND" /><input value="RESET" />
+        </form>
+      </section>
+    </div>
 
-	<div class="clear long">
-		<div class="pic"><a href="img/illust/01.jpg" data-fancybox="illust"><img src="img/illust/01.jpg" alt="説明"></a></div>
-		<div class="pic"><a href="img/illust/02.jpg" data-fancybox="illust"><img src="img/illust/02.jpg" alt="説明"></a></div>
-		<div class="pic"><a href="img/illust/03.jpg" data-fancybox="illust"><img src="img/illust/03.jpg" alt="説明"></a></div>
-		<div class="pic"><a href="img/illust/04.jpg" data-fancybox="illust"><img src="img/illust/04.jpg" alt="説明"></a></div>
-		<div class="pic"><a data-fancybox="illust" data-type="iframe" data-src="comic01.html" href="javascript:;"><img src="img/illust/05.jpg" alt="説明"></a></div>
-	<a href="img02.html" class="next"><i class="fas fa-angle-down"></i></a>
-	</div>
+    <footer>
+      <p>SITETITLE｜since2020.07.01~</p>
+    </footer>
 
-</section>
-
-<section id="off">
-
-	<h3>circle：サークル名</h3>
-	<div>
-		<ul>
-			<li>
-				<span class="date">2020/**/**</span>
-				<span class="number">あ-12</span>
-				<span>イベント名とか</span>
-			</li>
-			<li>
-				<span class="date">2020/**/**</span>
-				<span class="number">イ-34</span>
-				<span>参加予定などイベント情報を載せるとこ</span>
-			</li>
-			<li>
-				<span class="date">2020/**/**</span>
-				<span class="number">Ｕ-56</span>
-				<span>これはダミーです</span>
-			</li>
-		</ul>
-	</div>
-
-	<div id="issued">
-		
-		<div class="book new">
-			<div class="hyoushi">
-				<img src="img/off/hyoushi.gif" alt="表紙">
-			</div>
-			<div class="info">
-				<h4>タイトル</h4>
-				<p class="price">A5｜P36｜&yen;400</p>
-				<p class="summary">これは、ダミーです。これは、ダミーです。これは、ダミーです。これは、ダミーですこれは、ダミーです。これは、ダミーです。</p>
-				<div class="btn">
-					<a>SAMPLE</a>
-					<a>ORDER</a>
-				</div>
-			</div>
-		</div>
-		
-		<div class="book">
-			<div class="hyoushi">
-				<img src="img/off/hyoushi.gif" alt="表紙">
-			</div>
-			<div class="info">
-				<h4>タイトル</h4>
-				<p class="price">A5｜P36｜&yen;400</p>
-				<p class="summary">これは、ダミーです。これは、ダミーです。これは、ダミーです。これは、ダミーです</p>
-				<div class="btn">
-					<a>SAMPLE</a>
-					<a>ORDER</a>
-				</div>
-			</div>
-		</div>
-		
-		<div class="book">
-			<div class="hyoushi">
-				<img src="img/off/hyoushi.gif" alt="表紙">
-			</div>
-			<div class="info">
-				<h4>タイトル</h4>
-				<p class="price">A5｜P36|&yen;400</p>
-				<p class="summary">これは、ダミーです。これは、ダミーです。これは、ダミーです。これは、ダミーです</p>
-				<div class="btn">
-					<a>SAMPLE</a>
-					<a>ORDER</a>
-				</div>
-			</div>
-		</div>
-		
-	</div>
-
-</section>
-
-
-<section id="about">
-	<h2>SITE TITLE<i class="fas fa-globe"></i>https://siteurl.com</h2>
-	<p>これは、ダミーです。これは、ダミーです。これは、ダミーです。これは、ダミーです</p>
-	<form name="contact" method="POST" data-netlify="true" action="index.html">
-		<textarea name="message" onclick="this.select()" id="msg"></textarea>
-		<input value="SEND"><input value="RESET">
-	</form>
-
-</section>
-
-
-</div>
-
-<footer>
-	<p>SITETITLE｜since2020.07.01~</p>
-</footer>
-
-
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-<script src="js/fitie.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
-<script src="https://unpkg.com/jscroll/dist/jquery.jscroll.min.js"></script>
-<script src="js/index.js"></script>
-
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="js/fitie.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+    <script src="https://unpkg.com/jscroll/dist/jquery.jscroll.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
 </html>
